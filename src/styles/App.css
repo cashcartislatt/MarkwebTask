@@ -1,0 +1,49 @@
+.editor-container {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 200px; /* Ensures the editor is always visible */
+  max-height: 700px; /* Optional: Prevents the editor from growing too large */
+  overflow-y: auto; /* Adds scroll if content exceeds max height */
+  background-color: #f9f9f9;
+}
+
+.editor {
+  min-height: 180px; /* Static height for the typing area */
+  outline: none;
+  white-space: pre-wrap;
+}
+
+.editor p {
+  margin: 0;
+}
+
+.toc-container {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.rendered-content {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.raw-html-container {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  height: 400px;
+}
+
+.html-code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: #333;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
